@@ -1,4 +1,8 @@
 /*estilos página productos*/
+@mixin color {
+    color: #01008c;
+    text-align: center;
+}
 
 .product {
     color: #01008c;
@@ -19,7 +23,7 @@
 }
 
 .product__paragraph {
-    color: #01008c;
+    @include mixin color;
     display: flex;
     flex-direction: column;
     gap: 0.5em;

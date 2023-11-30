@@ -1,0 +1,252 @@
+@charset "UTF-8";
+/*generales*/
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  padding: 10px;
+  text-align: center;
+  color: darkblue;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+h2 {
+  padding: 10px;
+  color: #e06d27;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+h3 {
+  padding: 20px;
+  color: #f8c941;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: large;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #090961 !important;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+/*estilos del banner de inicio */
+.banner_inicio {
+  width: 100%;
+  width: 100%;
+}
+
+/*estilo página Index/Home*/
+.fotito {
+  width: 14rem;
+  height: 14rem;
+}
+
+.contenedorfotitos {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 2rem;
+  width: 95%;
+}
+
+.texto-central-inicio,
+.texto-central-productos {
+  margin: 35px;
+  text-align: center;
+  color: darkblue;
+}
+
+/*estilos página productos*/
+.product {
+  color: #01008c;
+  overflow: hidden;
+  margin-top: 3rem;
+}
+
+.product__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.product__text {
+  margin-top: 0.5rem;
+  display: grid;
+  gap: 1em;
+}
+
+.product__paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+/* Estilos de la galería de imágenes productos*/
+.gallery__container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-left: 1em;
+  padding-right: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery__picture {
+  max-height: 195px;
+  min-width: 190px;
+  flex: 270px;
+  max-width: 355px;
+  overflow: hidden;
+  box-shadow: -1px -1px 10px gray;
+  border-radius: 0.2em;
+}
+.gallery__picture:hover {
+  box-shadow: -1px -1px 10px #000;
+}
+.gallery__picture:hover .gallery__details {
+  transform: translateY(-100%);
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 500ms ease-in;
+}
+.gallery__img:hover {
+  transform: scale(1.3);
+}
+
+.gallery__details {
+  height: 50%;
+  transition: transform 500ms ease-in 500ms;
+  transform: unset;
+  background: linear-gradient(180deg, hsla(0, 0%, 0%, 0.034) 0%, hsla(0, 0%, 0%, 0.3) 10%, hsl(0, 0%, 0%) 100%);
+}
+
+.gallery__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1.5em;
+  color: #01008c;
+  /* Cambiado a azul */
+  padding: 1em;
+  text-shadow: 2px 2px 10px #000, -2px -2px 10px #000;
+}
+
+.gallery__title {
+  padding-bottom: 4px;
+  border-bottom: 5px solid #4949ba;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.cta--gallery {
+  background-color: #4949ba;
+  padding: 0.5em;
+  text-align: center;
+  border-radius: 0.2em;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/*estilos para servicios*/
+.servicios {
+  display: flex;
+}
+
+/*estilo en la pagina nosotros*/
+.conteinerlogos {
+  text-align: center;
+}
+
+/* estilos para contacto */
+.container {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  color: #090961;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #f8c941;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #e06d27;
+}
+
+p {
+  margin: 20px;
+}
+
+/*estilo para footer*/
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #090961;
+  color: white;
+  margin-top: 3rem;
+  height: 10rem;
+  width: 100%;
+}
+
+.footer-left,
+.footer-right {
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-left {
+  margin-left: 2%;
+}
+
+.footer-right {
+  margin-right: 2%;
+  display: flex;
+  gap: 1rem;
+  color: #E06D27;
+}
+
+.logoredsocial {
+  width: 2rem;
+  height: 2rem;
+  fill: white;
+}/*# sourceMappingURL=estilos.css.map */
