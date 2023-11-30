@@ -1,0 +1,42 @@
+/* estilos para contacto */
+
+.container {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: $color-azul;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f8c941;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #e06d27;
+    }
+}
+
+p {
+    margin: 20px;
+}

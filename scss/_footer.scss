@@ -1,0 +1,37 @@
+/*estilo para footer*/
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $color-azul;
+    color: white;
+    margin-top: 3rem;
+    height: 10rem;
+    width: 100%;
+}
+
+.footer-left,
+.footer-right {
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-left {
+    margin-left: 2%;
+}
+
+.footer-right {
+    margin-right: 2%;
+    display: flex;
+    gap: 1rem;
+    color: #ffff;
+}
+
+.logoredsocial {
+    width: 2rem;
+    height: 2rem;
+    fill: white;
+}

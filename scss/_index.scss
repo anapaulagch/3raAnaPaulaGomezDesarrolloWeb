@@ -1,0 +1,22 @@
+/*estilo página Index/Home*/
+
+.fotito {
+    width: 14rem;
+    height: 14rem;
+}
+
+.contenedorfotitos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 2rem;
+    width: 95%;
+}
+
+.texto-central-inicio,
+.texto-central-productos {
+    margin: 35px;
+    text-align: center;
+    color: darkblue;
+}
