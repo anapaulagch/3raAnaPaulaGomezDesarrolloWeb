@@ -3,3 +3,28 @@
 .servicios {
     display: flex;
 }
+
+.card-presupuesto {
+    background-image: linear-gradient(#00000080, #00000080),
+        url("../assets/SERVICIOS/presupuesto.jpg");
+}
+
+.card-logistica {
+    background-image: linear-gradient(#00000080, #00000080),
+        url("../assets/SERVICIOS//logistica.jpg");
+}
+
+.card-atencionper {
+    background-image: linear-gradient(#00000080, #00000080),
+        url("../assets/SERVICIOS/atencionpersonalizada.jpg");
+}
+
+.card-asesoramiento {
+    background-image: linear-gradient(#00000080, #00000080),
+        url("../assets/SERVICIOS/asesoramiento.jpeg");
+}
+
+.card-colocacion {
+    background-image: linear-gradient(#00000080, #00000080),
+        url("../assets/SERVICIOS/colocacion.jpg");
+}

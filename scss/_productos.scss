@@ -23,7 +23,7 @@
 }
 
 .product__paragraph {
-    @include mixin color;
+    @include color;
     display: flex;
     flex-direction: column;
     gap: 0.5em;

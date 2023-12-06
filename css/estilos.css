@@ -6,6 +6,12 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+html,
+body {
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
+
 h1 {
   padding: 10px;
   text-align: center;
@@ -38,7 +44,6 @@ h3 {
 
 /*estilos del banner de inicio */
 .banner_inicio {
-  width: 100%;
   width: 100%;
 }
 
@@ -85,6 +90,7 @@ h3 {
 
 .product__paragraph {
   color: #01008c;
+  text-align: center;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
@@ -165,7 +171,27 @@ h3 {
 
 /*estilos para servicios*/
 .servicios {
-  display: flexbox;
+  display: flex;
+}
+
+.card-presupuesto {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5019607843), rgba(0, 0, 0, 0.5019607843)), url("../assets/SERVICIOS/presupuesto.jpg");
+}
+
+.card-logistica {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5019607843), rgba(0, 0, 0, 0.5019607843)), url("../assets/SERVICIOS//logistica.jpg");
+}
+
+.card-atencionper {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5019607843), rgba(0, 0, 0, 0.5019607843)), url("../assets/SERVICIOS/atencionpersonalizada.jpg");
+}
+
+.card-asesoramiento {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5019607843), rgba(0, 0, 0, 0.5019607843)), url("../assets/SERVICIOS/asesoramiento.jpeg");
+}
+
+.card-colocacion {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5019607843), rgba(0, 0, 0, 0.5019607843)), url("../assets/SERVICIOS/colocacion.jpg");
 }
 
 /*estilo en la pagina nosotros*/
@@ -212,6 +238,13 @@ button:hover {
 
 p {
   margin: 20px;
+}
+
+.mapa {
+  width: 50%;
+  margin-left: 20px;
+  float: inline-start;
+  margin-bottom: 50px;
 }
 
 /*estilo para footer*/
