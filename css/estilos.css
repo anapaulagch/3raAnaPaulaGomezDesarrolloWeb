@@ -240,13 +240,6 @@ p {
   margin: 20px;
 }
 
-.mapa {
-  width: 50%;
-  margin-left: 20px;
-  float: inline-start;
-  margin-bottom: 50px;
-}
-
 /*estilo para footer*/
 footer {
   display: flex;
@@ -275,7 +268,7 @@ footer {
   margin-right: 2%;
   display: flex;
   gap: 1rem;
-  color: #E06D27;
+  color: #e06d27;
 }
 
 .logoredsocial {
